@@ -2,7 +2,8 @@ import cv2
 import numpy as np
 import os
 import sys
-import closed_form_matting
+from src.Davide import closed_form_matting
+
 
 def process_alpha_matte(image_path, scribbles_path, max_dimension=500, display=True, save=True):
     """
@@ -73,7 +74,7 @@ def process_alpha_matte(image_path, scribbles_path, max_dimension=500, display=T
         image_filename = os.path.splitext(os.path.basename(image_path))[0]
         
         # Create output directory if it doesn't exist
-        output_dir = "../output/alpha"
+        output_dir = "../../output/alpha"
         os.makedirs(output_dir, exist_ok=True)
         
         # Define output path
