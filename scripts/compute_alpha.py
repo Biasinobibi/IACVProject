@@ -25,7 +25,7 @@ from typing import Tuple
 
 import cv2
 import numpy as np
-import closed_form_matting
+from src import closed_form_matting
 
 # Global safety parameter
 MAX_SAFE_PIXELS = 4_000_000  # 4 MP = 3000×1333, avoids running out of RAM
