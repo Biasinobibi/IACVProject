@@ -1,4 +1,4 @@
-# `compute_alpha.py`
+# compute_alpha.py
 ## Closed-Form Matting Wrapper
 
 A safe, command‐line wrapper around a Closed‐Form Matting implementation.  
