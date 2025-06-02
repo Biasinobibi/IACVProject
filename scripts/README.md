@@ -1,4 +1,4 @@
-# compute_alpha.py. Closed-Form Matting Wrapper
+# compute_alpha.py
 
 A safe, command‐line wrapper around a Closed‐Form Matting implementation.  
 This script reads an input image and corresponding scribbles, automatically handles orientation and sizing, computes an alpha matte, and writes the result to disk—without opening any display windows.
