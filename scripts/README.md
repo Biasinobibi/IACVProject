@@ -4,7 +4,7 @@ A safe, command‐line wrapper around a Closed‐Form Matting implementation.
 This script reads an input image and corresponding scribbles, automatically handles orientation and sizing, computes an alpha matte, and writes the result to disk—without opening any display windows.
 
 ```bash
-python process_alpha_matte.py input.png input_scribbles.png -m 800 -o output/alpha/input_alpha.png
+python compute_alpha.py input.png input_scribbles.png -m 800 -o output/alpha/input_alpha.png
 ````
 
 * **`input.png`**: Path to the original image.
